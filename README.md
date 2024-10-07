@@ -130,7 +130,7 @@ Before diving into the optimization, I calculated the following metrics for each
 - Only five stocks are shown here
 - The Return is based on on the price change equation below:
 
-![equation 1](Images/equation_1.png)
+![equation 1](Project/Images/equation_1.png)
 - While the risk is just standard deviation of the price change. 
 
 ## Covariance Matrix
@@ -146,14 +146,14 @@ Before diving into the optimization, I calculated the following metrics for each
 
 Based on the covariance matrix equation
 
-![equation 2](Images/equation_2.png)
+![equation 2](Project/Images/equation_2.png)
 
 ## Equations
 The equations for portfolio variance, expected return, and the Sharpe ratio are fundamental components of the Efficient Frontier methodology and are defined as follows:
 
-![image](Images/equation_3_port_er.png)
-![image](Images/equation_3_port_variance.png)
-![image](Images/equation_3_sharpe_ratio.png)
+![image](Project/Images/equation_3_port_er.png)
+![image](Project/Images/equation_3_port_variance.png)
+![image](Project/Images/equation_3_sharpe_ratio.png)
 
 
 ```python
@@ -291,7 +291,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images/Dow_minimum_risk.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images/Dow_minimum_risk.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
@@ -357,7 +357,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images\sp500_min_risk.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images\sp500_min_risk.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
@@ -499,7 +499,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images\dow_max_return.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images\dow_max_return.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
@@ -601,7 +601,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images\sp500_max_return.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images\sp500_max_return.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
@@ -696,7 +696,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images\dow_max_sharpe.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images\dow_max_sharpe.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
@@ -768,7 +768,7 @@ weights = result.x
     </table>
   </div>
   <div style="flex: 1;">
-    <img src="Images\sp500_max_sharpe.png" alt="Chart" style="width: 100%; height: auto;" />
+    <img src="Project/Images\sp500_max_sharpe.png" alt="Chart" style="width: 100%; height: auto;" />
   </div>
 </div>
 
